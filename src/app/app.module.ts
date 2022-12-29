@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { CheckboxModule } from 'primeng/checkbox';
 import { FormsModule } from '@angular/forms';
 import { TableModule } from 'primeng/table';
+import { DropdownModule } from 'primeng/dropdown';
+import { MultiSelectModule } from 'primeng/multiselect';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InputTextModule } from 'primeng/inputtext';
+import { CalendarModule } from 'primeng/calendar';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +20,11 @@ import { TableModule } from 'primeng/table';
     CheckboxModule,
     FormsModule,
     TableModule,
+    DropdownModule,
+    MultiSelectModule,
+    BrowserAnimationsModule,
+    InputTextModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent],
