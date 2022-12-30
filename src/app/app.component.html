@@ -1,43 +1,6 @@
-<div class="flex">
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-    <span class="p-input-icon-left">
-      <i class="pi pi-search"></i>
-      <input type="text" pInputText placeholder="Search road" />
-    </span>
-  </div>
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-  <p-multiSelect [options]="groupedCities" [group]="true" [(ngModel)]="selectedCities4" defaultLabel="Select a City" scrollHeight="250px" display="chip">
-    <ng-template let-group pTemplate="group">
-        <div class="flex align-items-center">
-            <img src="assets/showcase/images/demo/flag/flag_placeholder.png" [class]="'mr-2 flag flag-' + group.value" style="width: 20px"/>
-            <span>{{group.label}}</span>
-        </div>
-    </ng-template>
-</p-multiSelect>
-  </div>
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-    Prime and PrimeFlex
-  </div>
 
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-    Prime and PrimeFlex
-  </div>
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-    Prime and PrimeFlex
-  </div>
-  <div
-    class="flex-1 flex align-items-center justify-content-center bg-blue-500 font-bold text-white m-2 px-5 py-3 border-round"
-  >
-  <p-calendar [(ngModel)]="selectedDate"></p-calendar>
-  </div>
+<app-header class="navbar"></app-header>
+<div class="container">
+  <app-sidebar class="sidebar"></app-sidebar>
+  <app-pages class="content"></app-pages>
 </div>

@@ -1,0 +1,25 @@
+:host {
+  position: relative;
+}
+.navbar {
+  height: 50px;
+}
+.container {
+  display: flex;
+  height: calc(100vh - 50px);
+
+  .sidebar {
+    width: 240px;
+    transition: width 0.5s;
+  }
+
+  .simple-mode {
+    width: 88px;
+    transition: width 0.5s;
+  }
+
+  .content {
+    flex: 1;
+    overflow: auto;
+  }
+}

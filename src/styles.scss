@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300;400;600;700&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+p-multiselect{
+    width: 100%;
+}
+
+.p-multiselect{
+    width: 100%;
+}
+p-calendar{
+    width: 100%;
+}
+
+.p-calendar{
+    width: 100%;
+}
+
+.p-input-icon-left{
+    width: 100%;
+}
+
+.p-inputtext{
+    width: 100%;
+}

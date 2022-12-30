@@ -11,9 +11,15 @@ import { MultiSelectModule } from 'primeng/multiselect';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputTextModule } from 'primeng/inputtext';
 import { CalendarModule } from 'primeng/calendar';
-
+import { HeaderComponent } from './header/header.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { PagesComponent } from './pages/pages.component';
+import { TableComponent } from './table/table.component';
+import {ProgressBarModule} from 'primeng/progressbar';
+import { HttpClientModule } from '@angular/common/http';
+import {SliderModule} from 'primeng/slider';
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HeaderComponent, SidebarComponent, PagesComponent,TableComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -24,7 +30,10 @@ import { CalendarModule } from 'primeng/calendar';
     MultiSelectModule,
     BrowserAnimationsModule,
     InputTextModule,
-    CalendarModule
+    CalendarModule,
+    ProgressBarModule,
+    HttpClientModule,
+    SliderModule
   ],
   providers: [],
   bootstrap: [AppComponent],
