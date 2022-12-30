@@ -1,0 +1,2192 @@
+{
+  "status": 200,
+  "msg": {
+    "count": {
+      "total": 121,
+      "cornering": 19,
+      "hardBraking": 19,
+      "hardAcceleration": 19,
+      "speeding": 43,
+      "idling": 21
+    },
+    "list": [
+      {
+        "id": "e707de45147279d72d62633497c9e891ec006333a7dcc2b5d4400ce2f682e796",
+        "start_time": 1672382342.727,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "d602eb92ed8a53884c090ca23e4a0c4ef6793e52d563ab0400b6667472c59358",
+        "start_time": 1672382195.012,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "9a0021772fc848b2a2d1b26677af8b84036a77a46c9407467148a15e871fc412",
+        "start_time": 1672381890.33,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "068c8d7a932ac960a7c0b7d931c5d5007daa6729a6389afce9fad6431905fac5",
+        "start_time": 1672381587.97,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "df4277543d47a63b9d191531dc26e1fc1593cf7b07f7f02c0d5402a6a7f5da0b",
+        "start_time": 1672381285.635,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "38f73dd231c0d954bee147e6f84c7fdb1d611fcef947ede9e58672af9ddfff95",
+        "start_time": 1672381143.085,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "ede4c197d2649b3d88f9c246e0b2af68efb5a24076a1356adf5b14ae2e3ca879",
+        "start_time": 1672380983.297,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "548ede6ad40c292634ded7ba76102e72de0da42b39dd02583230e3d419901874",
+        "start_time": 1672380680.972,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "53320b593f3e9ade0190426361ed525f8b889c3f9dea9a1d6ab0b82f4efccc84",
+        "start_time": 1672380376.307,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "e2bbbc13af134117f1b75a1403cc44905e65276f6a6cb706177b5816bbc27a22",
+        "start_time": 1672380073.944,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "b6b29369318bdb66bffc31a843d16e385d13d0dee9a32760aab04ccab0631959",
+        "start_time": 1672379942.81,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "f3f771045141b641ba68abd00e8a71fb63e0e0934760ea5f798ec31c3de30390",
+        "start_time": 1672379771.612,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "2b55834730e1db722626c4dabdbdfec64c5e981eabcafbc7f51e3c2f72f0cbe9",
+        "start_time": 1672379469.279,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "96382c865421b68e83d80268c8754fac2f8f22ecf644b443d1fb24ccbb9fd10f",
+        "start_time": 1672379166.939,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "a74e1837b57e9a0b9ac19d16f58fbd1c9eab04a718964d22d3dd466cb652ce01",
+        "start_time": 1672378862.248,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "3a308ccd34c36862861fcbc1b0a886a803b93b2ba0223165823585a1878eb23b",
+        "start_time": 1672378743.306,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "7a1c1985159e9411197839234e26966daa99286796ad15f66bd8494e604150d0",
+        "start_time": 1672378559.889,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "f80ae398cd9ef4cff40ca197b61a97c183d80fbe7b23b16233de4876262bac3e",
+        "start_time": 1672378257.558,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "5b61327ed504f150d620f230841c24dfee2df653cdadffc76ecbabc2f5622d35",
+        "start_time": 1672377955.22,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "b5c0611bab30100c6d0b08a95e1a371a64690c630ac72be3590ccf7cf1d4ac72",
+        "start_time": 1672377652.868,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "2657553807d9fd0a4f5622c8564fd9ea86e25d4a5e1722527bf84b30f1224d2d",
+        "start_time": 1672377542.875,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "a132f7b17d9d69c2bebe866709acf01dfe391a8b2456601096f7a2208d987a75",
+        "start_time": 1672377348.188,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "ce730e99e559068dbdf9f084c2904c1a8763e0cbeb7dc01dd5ac3a6bfab2422c",
+        "start_time": 1672377045.851,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "c4ec68ede4894ca5fcadf7367432b5419ac29c755feb2e022bd173a511c67953",
+        "start_time": 1672376743.49,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "9fa02b25d58243c1fa0d757febad987326af938b0b32da5411b8afe3cc5216aa",
+        "start_time": 1672376441.124,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "25562b3fdcfcbb48b485da8cb6b4c0431a0b49fc1915606943e4cd12d7ea695c",
+        "start_time": 1672376343.347,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "8a4698556d3850b1bed3d495ea76acb2cc03ac91dd7d05709d975d2f5a71a3e3",
+        "start_time": 1672376138.792,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "c8490eebac31f4125925dccbb60a398bab7548ee68e47cdedf9b15fadc5e5071",
+        "start_time": 1672375834.115,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "6590017a7db3455f9d85a373e307e97ae882a709a8bb1992871212f98f90ea0a",
+        "start_time": 1672375531.782,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "62dc2d0b480f87b91c50fa1894d33df075e56284be02938a294ad0041ec7db54",
+        "start_time": 1672375229.447,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "6f998b3c718971a2c379b49365549f26bfdd49f5f04329ef3935a45a2c91b96e",
+        "start_time": 1672375141.977,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "d5fd7377db751a5a03ed09489af9d12144105139eeb2b33e5a7c9123a063abf9",
+        "start_time": 1672374927.116,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "383d006f4fcd45e1ba922531fcbe89460939cf84410904be16996eaf73c1d9d8",
+        "start_time": 1672374624.79,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "7ed0f8a614226173c4031bdc9253429df607bfc34aace8f71a4872f762ca2452",
+        "start_time": 1672374320.111,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "01875847290ced947cdd5407b5705c7beab374beb72ecc40d6c57a04c216d050",
+        "start_time": 1672374017.767,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "3dfeff75700b6374583fd5ab3ff766da09d4433c17fc81f0651d522cf074987a",
+        "start_time": 1672373942.101,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "402076c48501d6f29c8670c6c933fcfb894effbbb7bff848b8683a8690741358",
+        "start_time": 1672373715.417,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "6ce01c4fd98a0d6ce071728ec9ef5594efecdaafc2ac0e574aa3ca6481b772b1",
+        "start_time": 1672373413.048,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "03c69ffc59dd22293bd8acb13c28a4500143363418f92f9d726c1a25be363e7d",
+        "start_time": 1672373110.722,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "4271b04e1f9a7431c74d36b32fe9d85503cedbde12a8568fb8479ad621d502bf",
+        "start_time": 1672372806.037,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "4780fbb3bf095ae90326c1e3f592275cb8ee2b14a97e5e7683b67988be2f8413",
+        "start_time": 1672372742.668,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "aead509782a74001b6a9ccefd86435f14b3faa84d91603bf6ce79d2cc7ebe7c1",
+        "start_time": 1672372503.698,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "869b436a238e6d989e68949a6e8fec29c860ccdd12924714d6da472e031d4bc9",
+        "start_time": 1672372201.367,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "0270cdb37edb30fc7eab193501210930327da6f6008406217f56abf9524e42c4",
+        "start_time": 1672371899.007,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "4979a20a6f828c029c9c91969e51e5d1f8fe04855318e735fa7035f5e736667b",
+        "start_time": 1672371596.678,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "31547a22f018879296bb987d542334d5fbcd6b24acc4d4ccffe2281ede544a0b",
+        "start_time": 1672371542.964,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "98480f2b218398edf47d09e38147780feb29d5b180ce89d5021a852559555f13",
+        "start_time": 1672371292.013,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "e34394a4847f22fab679b2e35230aa1480261e29a590f01abe64e0e7b4ac0f8a",
+        "start_time": 1672370989.684,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "bd06b817a9e5560f15cafa512ea96ab5d44653da1b401279d4d22f4307214f65",
+        "start_time": 1672370687.317,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "15f00b4d32e81fce6847a28d56cc1c56dc72eeb14a8afa44968c76f546788e22",
+        "start_time": 1672370384.968,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "029557a4699374b6d924a3fd59b4df6f013f27931758e8607a40eab2b9f4f350",
+        "start_time": 1672370343.248,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "73587f7b1285bc93eb93d44cb2fabf9099a2c520a870a92aa31a507a7b7860a1",
+        "start_time": 1672370082.639,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "5f67d2a70001ffb3defc02dcfce06859cd61e161e826b2817b2e8d0befb3b6f6",
+        "start_time": 1672369777.915,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "89fd0ba7fe3f2771704e0a6f556721007ba25425907baa836a59514cf4ad91bd",
+        "start_time": 1672369475.581,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "52ec51a6b4e9c60ddefc238117da7e0ca59819bc0dd7935a110f9cb32d30f6a2",
+        "start_time": 1672369173.244,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "ea824b6354a131415dd933972a517329677d652f44f5553300394f49f0f46d7d",
+        "start_time": 1672369142.665,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "030c3f527f97f35ab18ba1e5897e26875899c787557f81c1edc5bcbfbfa6745e",
+        "start_time": 1672368870.913,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "d4eb4b88b4d570f0c25ff2cd586f5dc95b532d0f62877214785b45ee83d66383",
+        "start_time": 1672368568.552,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "5f31ffc3236787df633b79396be087a4f44c9c69e501dda7320268e03982f64d",
+        "start_time": 1672368263.859,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "5d8afede7ac80cbe9e979c93cea729d6ffcabca5e43dd82fee17333bfb8299c3",
+        "start_time": 1672367961.524,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "a4721bc09880cbdafdbcc42cc5885447c6d1012bc9cce62cf7f13f1022c323ac",
+        "start_time": 1672367943.034,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "4728315da7f551e4dc9235e83b2e1215251d50d5039ac171f9895cb595cf4430",
+        "start_time": 1672367659.187,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "08e603ad5735439292e121f895f9afd31d491b62dcfc7d78e37b1ba22f5c0758",
+        "start_time": 1672367356.813,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "4e2b8dcac7b3698ca5604da43391d6e5aa36771c2b84ecc1516b63b24456ae93",
+        "start_time": 1672367054.483,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "db77c5776488268ed4dae7cef852ed70c36588a896d0b5987c4576e9738d176c",
+        "start_time": 1672366749.794,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "d0974ebbf206c0c1f1c3e16bc5ad0113509518cce6bf195f8611d3a8a93c90bb",
+        "start_time": 1672366742.351,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "957bc30f9997d654fb0ae9de06cb4bf1b917e4a79ad0f91af5ab080d2008fad1",
+        "start_time": 1672366447.442,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "47e256a490bcf942c61bf1f694f894a13f222bd23a6f817e16a6bb63660b6376",
+        "start_time": 1672366145.102,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "55d3fecc348f9e9df7a69c10211b037e18632d0402c16205454c34945c7318d2",
+        "start_time": 1672365842.742,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "4ab55b59861422956eec7ec037572de2f756d924ffebcd75cc5c458396adf8a8",
+        "start_time": 1672363613.0,
+        "road_name": "1323-1395 US-50, Pueblo, CO 81008, USA",
+        "lat": 38.30924025,
+        "lng": -104.62542845,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "19fb96f3-2b8d-44fd-8cc8-f0083e0bbada",
+          "name": "V-AAAH-21"
+        },
+        "device": { "id": "e42c56db343e", "name": "AAAH-21" },
+        "detail": [{ "field": "Duration", "value": "59m30s" }]
+      },
+      {
+        "id": "4ec4973cfc138394d0825a84668413688310058e1c352e95b6c2c829b8e96a30",
+        "start_time": 1672365542.887,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "61c739c13eb372166f815feacc3b4c0273b9bc3f85fd406939638202795b341c",
+        "start_time": 1672365540.403,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "4239924125850a9880699aba8c04203e8a3319593ecb07f7f2361cafc3c3e664",
+        "start_time": 1672365235.729,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "df8c5e4de82bc5e5d42c5e40d3ee0c8c21c07f1898c87453b0a15cb9d4041baf",
+        "start_time": 1672364933.391,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "0b457be5e5f1a76affb38a8474538d8c0a44a982889b6012feceef802c924e4f",
+        "start_time": 1672364631.058,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "351ccc23ee4bc9fbd56f49d5d5a2ad78898ce7ad479987b98fd55cfe2a6dcb02",
+        "start_time": 1672364342.517,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "72de18bc0bcd353238eadd8654ed00f34b924c2d34ac015f429434bf393753ee",
+        "start_time": 1672364328.701,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "b909cf9d0b97762378ceaec6fa680f0618db21bb2dd4a31f25ab8618ce6c6dca",
+        "start_time": 1672364026.361,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "7be76c396a40de04f944d8c5e20cb588534f23eb7f1dbf904e1ce6cbb040f877",
+        "start_time": 1672363721.631,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "8d80d7915e97f172afce23d09e200ba883ad0c158e6654f285805a073c1ca57a",
+        "start_time": 1672363419.292,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "82126ecb19323543ebb141c88835a9c25da3c596507d033bb28d87a1228d72ca",
+        "start_time": 1672363143.221,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "f2aa5d9ab5b8809b73664717f621cd168eac340e6861f1ebde00886d25a5f650",
+        "start_time": 1672363116.945,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "d8f6cd9d17f3b6da2c0c71caa0a2387cd512be2afc2ee89df3527266a431b1e0",
+        "start_time": 1672362814.614,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "566e5bd62fd0bffcbf90361fbb3fee5e133e7ffcb61de99120e2fba104edea21",
+        "start_time": 1672362512.285,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "a44a7fc891fa545fde4b86462dd44dce0f31aecebac2b1c119c3e1cd3c36a273",
+        "start_time": 1672362207.585,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "56d97c8e94fdd88ea0137a53a17b6061970bb793acd33b8331097ebaaf0839b4",
+        "start_time": 1672361942.013,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "e10755003230fb935da2a0583a371b1fb9c2c78299081a784852becc28bf9517",
+        "start_time": 1672361905.248,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "5b1c36cb2407268d19813be988c12140db1cc4b61b9d91d41aa581da40b6860c",
+        "start_time": 1672361602.863,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "47c1c239e3f287f81d7cb5c6e7e0b9c43f99c62c5e62c096833bd19ea0770d3d",
+        "start_time": 1672361300.496,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "1246bc0e38d79a35166e108524e2508709c0415d35e8920cdbc58e20cdff445d",
+        "start_time": 1672360998.16,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "04d9f485484f9676a2f1ec7c39270616e90c488df874eb65539b7133d3e6f1b7",
+        "start_time": 1672360742.9,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "502436d71aad6ce69cc11ac5c7659925172795ab920aaa19b1bde4beafda01ba",
+        "start_time": 1672360693.48,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "fd009259cf302f19760788ebaa08109c5ac36750903930b9333abba1ee0734bb",
+        "start_time": 1672360391.123,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "0ea392851031d9cdefdd9f48d784d1515e5fe73d96ccdc8084fd336f86858df8",
+        "start_time": 1672360088.789,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "618aea42d3df08f5fa6889208aaae9ef437331b4e9e21a86d8bf842597ab359c",
+        "start_time": 1672359786.447,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "90a196296b2ef584296d3ee7efeb0924ce72800d674fabbc361fcf5e5249449d",
+        "start_time": 1672359542.78,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "5ef303cf7322d28d368ac2a61b0f0956fa98cf76e6c22155b03faaa4453a581d",
+        "start_time": 1672359484.077,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "bb5ba6d10e885367ffa57f8ee8a379e2f5445343fa5374ab0267f29cc6f48990",
+        "start_time": 1672359179.383,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "315cb338843fd9e005ee86c92b12c03a30055cf0b271522a389cef24a65561d0",
+        "start_time": 1672358877.046,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "c5daedd9be27126208f8f82afd02c515fb2c25d1a94d372f5beaff6a7df82115",
+        "start_time": 1672358574.706,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "eeeb3b12c39c77ee4058f985e1ed3e51bc4a57e33a4c69b35fa8ba9cff6cc0f3",
+        "start_time": 1672358344.025,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "b3723ae52614f3941d4fc7f96f4eea639de82e47f9e762fa10a7e1e12f93abbb",
+        "start_time": 1672358272.377,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "94c21c964a7bc3c82f99c93eeafb3e44f98721658e0b95d883a62aea69b321e0",
+        "start_time": 1672357970.053,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "78c129db9bcf8b9f6f7815a1156e3746a8518296c41b54880bdcf3d67b82ea2c",
+        "start_time": 1672357665.314,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "bfab2ac7d881f7ad456a592caac75fd8619220cf424efa07f65d612a80dbd96b",
+        "start_time": 1672357362.967,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "e5ac1f1c776a1c65e1dae8168110e1b6ae5a4cab9d52bcc9f151460883f75661",
+        "start_time": 1672357142.261,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "9040ceb72d00e503510816b76651dede3a4fb399b8f92cacafe1b742c88f773d",
+        "start_time": 1672357060.628,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "6b837bd1cb616167d5eba113962ad755caf30496e8aaa6ed977b62780cf500f9",
+        "start_time": 1672356758.279,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "c413eeff4023ce5b62230f81428b17c43eb867247d073478042c0429b6bb9488",
+        "start_time": 1672356455.923,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "ffe1b0065c4dfb6269717e005035fea6fa6c170b71cb95709c858730976c0aa8",
+        "start_time": 1672356151.246,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "246209e8d573c717312f5910bdd53e343a2d83f901677489ed8344d2ae6e132a",
+        "start_time": 1672355943.043,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "a02a432c34e0b6bb9bb0d1a9f1cc44a88b8acf3209cb35bfabb4f9c7599de6d1",
+        "start_time": 1672355848.858,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "79b60cbbe6bc1363777f58284bcbea84a441bdecb5d4283194d455461cdf08ff",
+        "start_time": 1672355546.528,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "16546dc450bc0e6f374154ab3cf3d4fd77cd7d6d013485abb9d013bfeda7fb14",
+        "start_time": 1672355244.177,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      },
+      {
+        "id": "e575e60a270cb61b04f3751edc5762f8ac438f142075cb1fe1d3053c171c3551",
+        "start_time": 1672354941.849,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [{ "field": "Duration", "value": "2m30s" }]
+      },
+      {
+        "id": "4d5d3beeca64b0659e67b3374384e1a337c672251c7c8421e4d1de1c73be1243",
+        "start_time": 1672354084.0,
+        "road_name": "Unnamed Road, Denver, CO 80249, USA",
+        "lat": 39.838326633,
+        "lng": -104.665734133,
+        "event_type": "idling",
+        "intell_type": null,
+        "vehicle": {
+          "id": "b132dc33-25e6-4f1e-a4da-bf8577f952b4",
+          "name": "V-AAAH-24"
+        },
+        "device": { "id": "e42c56db3516", "name": "AAAH-24" },
+        "detail": [{ "field": "Duration", "value": "35m38s" }]
+      },
+      {
+        "id": "febaa33fe59804fc6a5f01c0dd452adb055d832869e398eabb3b78e0b61d4e4b",
+        "start_time": 1672354742.634,
+        "road_name": "e2e test event road",
+        "lat": 25.180031,
+        "lng": 121.54338,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "095502da-f39a-43c2-9bf9-47ba8e8875ad",
+          "name": "e2eEventV"
+        },
+        "device": { "id": "e2efe0000001", "name": "e2eEventDevice" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "2052987377691aa779c465ed631426e582c0365371f28665806b6fabbb0e47ad",
+        "start_time": 1672354637.193,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "speeding",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Limit", "value": "50.0 mph" },
+          { "field": "Average", "value": "60.0 mph" },
+          { "field": "Max", "value": "65.0 mph" }
+        ]
+      },
+      {
+        "id": "0bb8cd47dfd0e07d57e1350b2334a010b69d8dcef9fc3a0b3976505bbf27e9be",
+        "start_time": 1672354334.854,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardAcceleration",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.02 G" },
+          { "field": "Max G", "value": "0.32 G" }
+        ]
+      },
+      {
+        "id": "70210b388b4d2c4d3d5123c020262cdfd3e82faa2b1cca290c279e8ecb23ead7",
+        "start_time": 1672354032.52,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "hardBraking",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Avg G", "value": "0.09 G" },
+          { "field": "Min G", "value": "-0.32 G" }
+        ]
+      },
+      {
+        "id": "bddd5f409904a29ff2bc2e72467b9f2404df066db73838fce83920b751dc0a1a",
+        "start_time": 1672353730.181,
+        "road_name": "91 E Tasman Dr, San Jose, CA 95134, USA",
+        "lat": 37.4111997,
+        "lng": -121.9448646,
+        "event_type": "cornering",
+        "intell_type": null,
+        "vehicle": {
+          "id": "d23a3726-3fc3-4af0-a44c-7d941f4654b2",
+          "name": "EmilyV-fdb7-V24"
+        },
+        "device": { "id": "e42c56dbfdb7", "name": "Emily-STS-fdb7" },
+        "detail": [
+          { "field": "Angle", "value": "100.0 \u00b0" },
+          { "field": "Avg Lateral G", "value": "0.05 G" },
+          { "field": "Max Lateral G", "value": "0.4 G" }
+        ]
+      }
+    ]
+  }
+}
