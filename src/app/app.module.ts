@@ -18,6 +18,7 @@ import { TableComponent } from './table/table.component';
 import {ProgressBarModule} from 'primeng/progressbar';
 import { HttpClientModule } from '@angular/common/http';
 import {SliderModule} from 'primeng/slider';
+import { ChipModule } from 'primeng/chip';
 @NgModule({
   declarations: [AppComponent, HeaderComponent, SidebarComponent, PagesComponent,TableComponent],
   imports: [
@@ -33,7 +34,8 @@ import {SliderModule} from 'primeng/slider';
     CalendarModule,
     ProgressBarModule,
     HttpClientModule,
-    SliderModule
+    SliderModule,
+    ChipModule
   ],
   providers: [],
   bootstrap: [AppComponent],

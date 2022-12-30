@@ -42,15 +42,17 @@ export class TableComponent {
 
   activityValues: number[] = [0, 100];
 
+  vehicleList: any[] = [];
+
   constructor(private customerService: CustomerService) {}
 
   ngOnInit() {
     this.customerService
       .getVehicleList()
-      .pipe(
-        map((e) => e.msg.list),
-        )
-      .subscribe((e) => console.log(e));
+      .pipe(map((e) => e.msg.list))
+      .subscribe((e) => {
+        this.vehicleList = e;
+      });
     this.customerService.getCustomersLarge().then((customers) => {
       this.customers = customers;
       this.loading = false;
